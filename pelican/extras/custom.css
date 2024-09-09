@@ -1,0 +1,294 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: Georgia, serif;
+    font-size: 14px;
+  }
+  
+****************/
+
+#extras {margin: 0 auto 3em auto; overflow: hidden;}
+
+#extras ul {list-style: none; margin: 0;}
+
+#extras li {border-bottom: 1px solid #fff;}
+
+#extras h2 {
+
+color: #cf55ff;
+
+font-size: 1.429em;
+
+margin-bottom: .25em;
+
+padding: 0 3px;
+
+}
+
+#extras a:link, #extras a:visited {
+
+color: #cf55ff;
+
+display: block;
+
+border-bottom: 1px solid #F4E3E3;
+
+text-decoration: none;
+
+padding: .3em .25em;
+
+}
+
+#extras a:hover, #extras a:active {color: #fff;}
+
+/* Blogroll */
+
+#extras .blogroll {
+
+float: left;
+
+max-width: 615px;
+
+}
+
+#extras .blogroll li {float: left; margin: 0 20px 0 0; max-width: 185px;}
+
+/* Social */
+
+#extras .social {
+
+float: right;
+
+max-width: 175px;
+
+}
+
+/*
+
+About
+
+- ****************/
+
+#about {
+
+background: #000000;
+
+font-style: normal;
+
+margin-bottom: 2em;
+
+overflow: hidden;
+
+padding: 20px;
+
+text-align: left;
+
+max-width: 760px;
+
+border-radius: 10px;
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+
+}
+
+#about .primary {float: left; max-width: 165px;}
+
+#about .primary strong {color: #cf55ff; display: block; font-size: 1.286em;}
+
+#about .photo {float: left; margin: 5px 20px;}
+
+#about .url:link, #about .url:visited {text-decoration: none;}
+
+#about .bio {float: right; max-width: 500px;}
+
+/*
+
+Footer
+
+- ****************/
+
+#contentinfo {padding-bottom: 2em; text-align: right;}
+
+/***** Sections *****/
+
+/* Blog */
+
+.hentry {
+
+display: block;
+
+clear: both;
+
+border-top: 1px solid #eee;
+
+padding: 1.5em 0;
+
+}
+
+li:first-child .hentry, #content > .hentry {border: 0; margin: 0;}
+
+#content > .hentry {padding: 1em 0;}
+
+.hentry img{display : none ;}
+
+.entry-title {font-size: 3em; margin-bottom: 10px; margin-top: 0;}
+
+.entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
+
+.entry-title a:visited {background-color: #fff;}
+
+.hentry .post-info * {font-style: normal;}
+
+/* Content */
+
+.hentry footer {margin-bottom: 2em;}
+
+.hentry footer address {display: inline;}
+
+#posts-list footer address {display: block;}
+
+/* Blog Index */
+
+#posts-list {list-style: none; margin: 0;}
+
+#posts-list .hentry {padding-left: 10px; position: relative;}
+
+#posts-list footer {
+
+left: 10px;
+
+position: relative;
+
+float: left;
+
+top: 0.5em;
+
+max-width: 190px;
+
+}
+
+/* About the Author */
+
+#about-author {
+
+background: #000000;
+
+clear: both;
+
+font-style: normal;
+
+margin: 2em 0;
+
+padding: 10px 20px 15px 20px;
+
+border-radius: 5px;
+
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+
+#about-author strong {
+
+color: #cf55ff;
+
+clear: both;
+
+display: block;
+
+font-size: 1.429em;
+
+}
+
+#about-author .photo {border: 1px solid #ddd; float: left; margin: 5px 1em 0 0;}
+
+/* Comments */
+
+#comments-list {list-style: none; margin: 0 1em;}
+
+#comments-list blockquote {
+
+background: #000000;
+
+clear: both;
+
+font-style: normal;
+
+margin: 0;
+
+padding: 15px 20px;
+
+border-radius: 5px;
+
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+
+#comments-list footer {color: #cf55ff; padding: .5em 1em 0 0; text-align: right;}
+
+#comments-list li:nth-child(2n) blockquote {background: #F5f5f5;}
+
+/* Add a Comment */
+
+#add-comment label {clear: left; float: left; text-align: left; max-width: 150px;}
+
+#add-comment input[type='text'],
+
+#add-comment input[type='email'],
+
+#add-comment input[type='url'] {float: left; max-width: 200px;}
+
+#add-comment textarea {float: left; height: 150px; max-width: 495px;}
+
+#add-comment p.req {clear: both; margin: 0 .5em 1em 0; text-align: right;}
+
+#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
+
+#add-comment * {margin-bottom: .5em;}
+
+@font-face {
+
+font-family: 'DINdong';
+
+src: url('../fonts/DINdong.woff2') format('woff2'),
+
+url('../fonts/DINdong.woff') format('woff'),
+
+url('../fonts/DINdong.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+body {
+
+font-family: 'DINdong', sans-serif;
+
+font-size: 18px
+
+}
+
+.post-info, .post-info p, .post-info a {
+
+color: #000000; /* Définit la couleur du texte en noir */
+
+}
+
+.author, .date, .category {
+
+color: #000000; /* Définit aussi la couleur en noir pour les autres classes pertinentes */
+
+}
+
+.post-info a:link, .post-info a:visited {
+
+color: #000000; /* Pour s'assurer que les liens sont également en noir */
+
+}
